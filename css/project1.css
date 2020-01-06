@@ -26,7 +26,7 @@ div.a1b{
     border: solid 1px none;
     float: left;
     height:35%;
-    width: 6.5%;
+    width: 5%;
     color: red;
     }
 div.a1c{
@@ -77,14 +77,14 @@ div.a32{
 div.b{
     border: solid 1px none;
     width: 100%;
-    height: 1500px;
+    height: 1300px;
     display: block;
     background-color:#f7f7f7;
     }
 div.b1{
-    border: solid 1px black;
+    border: solid 2px #edeaea;
     width: 60%;
-    height: 250px;
+    height: 220px;
     display: block;
     margin:0% 0% 0% 20%;
     background-color: white;
@@ -92,29 +92,26 @@ div.b1{
 div.b11{
     border: solid 1px none;
     width:100%;
-    height:15%;
     display: block;
     padding: 0% 0% 0% 5%;
     }
 div.b12{
     border: solid 1px none;
     width: 90%;
-    height:50%;
     display: block;
     margin:0% 5% 0% 5%;
     }
 div.b13{
     border: solid 1px none;
     width: 40%;
-    height:20%;
     float: right;
     margin: 0% 0% 0% 5%;
     font-style: italic;  
     }
 div.b2{
-    border: solid 1px black;
+    border: solid 2px #edeaea;
     width: 60%;
-    height: 250px;
+    height: 220px;
     display: block;
     margin:2.5% 0% 0% 20%;
     background-color: white;
