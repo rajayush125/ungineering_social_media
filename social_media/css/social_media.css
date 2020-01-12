@@ -1,0 +1,109 @@
+div.a {
+    float: left;
+    border: solid 2px black;
+    height: 100px;
+    margin: 40px;
+    width: 100%;
+    box-sizing: border-box;
+}
+div.a1 {
+    float: left;
+    border: solid 1px black;
+    height: 98px;
+    width: 20%;
+    box-sizing: border-box;
+}
+div.a1a1{ 
+    float: left;
+    border: solid 1px black;
+    height: 100px;
+    width: 20%;
+    box-sizing: border-box;
+    }
+div.a1a2 {
+    float: left;
+    border: solid 1px black;
+    height: 100px;
+    width: 70%;
+    box-sizing: border-box;
+}
+div .a2{
+    float: left;
+    border: solid 3px black;
+    height: 100%;
+    width: 50%;
+    box-sizing: border-box;
+}
+div .a3{
+    float: left;
+    border: solid 3px black;
+    height: 98px;
+    width: 10%;
+    box-sizing: border-box;
+}
+div.a4{
+    float: left;
+    border: solid 3px black;
+    height:98px;
+    width: 10%;
+    box-sizing: border-box;
+}
+div.b{
+    float:left;
+    border: solid 3px black;
+    height: 300px;
+    margin: 0px 40px 40px 400px;
+    width: 100%;
+    box-sizing: border-box;
+}
+div.b1{
+    float:left;
+    border: solid 3px black;
+    height: 300px;
+    width: 20%;
+    box-sizing: border-box;
+}
+div.b1b1{
+    float:left;
+    border: solid 3px black;
+    height: 50px;
+    width: 100%;
+    box-sizing: border-box;
+}
+div.b1b2{
+    float:left;
+    border: solid 3px black;
+    height: 50px;
+    width: 100%;
+    box-sizing: border-box;
+}
+div.b1b3{
+    float:left;
+    border: solid 3px black;
+    height: 198px;
+    width: 100%;
+    box-sizing: border-box;
+}
+div.b2{
+    float:left;
+    border: solid 3px black;
+    height: 300px;
+    width: 50%;
+    box-sizing: border-box;
+}
+div.b3{
+    float:left;
+    border: solid 3px white;
+    height: 300px;
+    width: 30%;
+    box-sizing: border-box;
+}
+div.c{
+    float:left;
+    border: solid 3px black;
+    height: 300px;
+    margin: 40px;
+    width: 75%;
+    box-sizing: border-box;
+}
+
