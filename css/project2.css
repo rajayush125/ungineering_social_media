@@ -4,74 +4,85 @@
 
 div.a{
     border: solid 1px none;
-    width: 100%;
-    height: 125px;
+    width: 80%;
+    height: 120px;
     display: block;
+    margin: 0% 10% 0% 10%;
     }
 div.a1{
     border: solid 1px none;
-    width:33.33%;
-    height:90%;
+    width:40%;
+    height:100%;
     float: left;
-    margin:1% 0% 0% 0%;
     }
 div.a1a{
     border: solid 1px none;
     float: left;
-    height:80%
-    width: 18%;
-    padding:0% 0% 0% 17%;
+    width:15%;
+    height:100%;
+    padding: 20%,0%,0%,0%;
     }
 div.a1b{
     border: solid 1px none;
     float: left;
-    height:35%;
-    width: 5%;
-    color: red;
-    }
-div.a1c{
-    border: solid 1px none;
-    float: left;
-    height:35%;
-    width: 50%;
-    }    
-div.a1d{
-    border: solid 1px none;
-    float: right;
-    height:40%;
-    width: 69%;
-    margin:0% 0% 10% 0%;
-    font-size:10px;
-    }
-div.a2{
-    border: solid 1px none;
-    width:33.33%;
+    width: 85%;
     height:100%;
+    }
+div.a1b1{
+    border: solid 1px none;
+    display: block;
+    height:50%;
+    width: 100%;
+    }
+div.a1b11{
+    border: solid 1px none;
     float: left;
+    height:100%;
+    font-size: 16px;
+    color: #f04c4e;
+    }
+div.a1b12{
+    border: solid 1px none;
+    float: left;
+    font-size: 16px;
+    height:100%;
+    color: #443f3f;
+    }        
+div.a1b2{
+    border: solid 1px none;
+    display: block;
+    height:50%;
+    width: 100%;
+    font-size: 11px;
+    padding:0%,0%,10%,0%;
     }
 div.a3{
     border: solid 1px none;
-    width:33.33%;
+    width:60%;
     height:100%;
     float: left;
     }
 div.a31{
-    border: solid 1px #f04c4e;
-    width:30%;
-    height:35%;
-    float: right;
-    margin:10%;
-    padding:3% 4% 2.5% 9%;
-    color:#ed6365;
+    border: solid 1px none ;
+    width:18%;
+    height:28%;
+    float: left;
+    color: #e84c4f;
+    margin:8% 0% 10% 57%;
+    padding: 1% 0% 0% 0.5%;
     }
 div.a32{
-    border: solid 1px none ;
-    width:30%;
-    height:35%;
-    float: right;
-    margin:10% -5% 10% 10%;
-    padding:3% 0% 2.5% 4%;
-    color:#ed6365;
+    border: solid 1.5px #f04c4e;
+    width:18%;
+    height:28%;
+    float: left;
+    margin:8% 0% 12% 2.3%; 
+    }
+input.a32{
+    height:100%;
+    width:100%;
+    color: #e84c4f;
+    background-color: white;
     }
 div.b{
     border: solid 1px none;
@@ -92,13 +103,14 @@ div.b11{
     width:100%;
     display: block;
     background-color:#f7f7f7;
+    font-family: sans-serif;
     }
 div.b12{
-    border: solid 1px black;
+    border: solid 1px #f7f7f7;
     width: 100%;
     display: block;
     height:50%;
-     
+    font-family: sans-serif; 
     }
 div.b13{
     border: solid 1px none;
@@ -107,9 +119,12 @@ div.b13{
     margin: 1% 0% 0% 0%;
     height: 16%;
     background-color:#F04C4E;
-    color: white; 
-    font-size:22px;
-    padding:1% 0% 1% 5%;
+    }
+input.b13{
+    height:100%;
+    width:100%;
+    color: white;
+    background-color:#F04C4E;
     }
 div.b2{
     border: solid 2px #edeaea;
@@ -124,12 +139,15 @@ div.b21{
     width:100%;
     display: block;
     padding: 0% 0% 0% 5%;
+    font-family: sans-serif;
+    color: #443f3f;
     }
 div.b22{
     border: solid 1px none;
     width: 90%;
     display: block;
     margin:0% 5% 0% 5%;
+    font-family: sans-serif;
     }
 div.b23{
     border: solid 1px none;
@@ -140,7 +158,8 @@ div.b23{
     }
 div.c{
     border: solid 1px black;
-    width: 100%;
+    width: 80%;
     height: 250px;
     display: block;
+    margin: auto;
     }
