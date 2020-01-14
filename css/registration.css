@@ -1,5 +1,9 @@
 *{
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    margin:0px;
 }
 
 div.a{
@@ -12,15 +16,17 @@ div.c{
     border: solid 2px black;
 }
 div.b{
-    height:900px;
+    height:1000px;
     margin-top: 0px;
     margin-left: 30%;
     margin-right: 30%;
     margin-bottom:0px;
+    background-color: rgb(244,244,244);
     border : solid 0.5px rgb(244,244,244);
 }
 div.b1{
     height:100px;
+    background-color: white;
     border: solid 0.5px rgb(244,244,244);
 }
 div.b2{
@@ -32,7 +38,7 @@ div.b2{
 }
 div.b12{
     width:50%;
-    padding-left:100px;
+    padding-left:170px;
     padding-top:0px;
     height:100%;
     float: left;
@@ -52,25 +58,25 @@ div.b23{
 }
 div.b24{
     height:15%;
+    margin-top:20px;
     border: solid 2px rgb(244,244,244);
 }
 div.b25{
-    height: 5%;
+    height: 8%;
+    margin-top:20px;
     border: solid 2px rgb(244,244,244);
 }
 div.b241{
-    height:50%;
     border: solid 1px rgb(244,244,244);
 }
 div.b242{
-    height:50%;
+    height:40%;
     border: solid 1px red;
 }
 
 p.b12{
     font-size: 30px;
     color: black;
-    text-decoration: underline;
 }
 a.b13{
     color: rgb(207,44,47);
@@ -95,40 +101,43 @@ input.b25{
     font-size:20px;
 }
 a.b25{
-    color:red;
+    color: red;
     font-size:20px;
     padding-top:10%;
 }
 div.c1{
     height:50px;
-    width:300px;
-    margin-top:60px;
-    margin-left:180px;
-    padding-bottom:10px;
+    margin-top:50px;
+    padding-left:150px;
+    padding-right:150px;
     border: solid 2px rgb(55,55,55);  
 }
 p.c1{
     color: white;
+    float: left;
+    font-size:20px;
+}
+p.c2{
+    color: white;
+    float: right;
     font-size:20px;
 }
 div.c2{
-    height:40px;
-    width:40px;
-    margin-left:180px;
-    float: left;
+    height:50px;
+    padding-left:150px;
+    padding-right:150px;
     border: solid 2px rgb(55,55,55);
 }
 img.c2{
     height:30px;
+    float: left;
     width:30px;
 }
-img.c3{
-    height:35px;
-    width:35px;
+a.c2{
+    float: right;
+    color: white;
+    text-decoration: none;
+    font-size:20px;
 }
-div.c3{
-    height:40px;
-    width:40px;
-    float: left;
-    border: solid 2px rgb(55,55,55);
-}
+
+
