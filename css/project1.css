@@ -54,7 +54,7 @@ div.a1b2{
     display: block;
     height:50%;
     width: 100%;
-    font-size: 11px;
+    font-size: 10px;
     padding:0%,0%,10%,0%;
     }
 div.a3{
@@ -64,32 +64,25 @@ div.a3{
     float: left;
     }
 div.a31{
-    border: solid 0px #f04c4e ;
+    border: solid 1px #f04c4e ;
     width:18%;
     height:28%;
     float: left;
-    margin:8% 0% 10% 57%;
-    }
-input.a31{
-    border: solid 1px #f04c4e;
-    height:100%;
-    width:100%;
     color: #e84c4f;
     background-color: white;
+    margin:8% 0% 10% 57%;
+    padding: 0.8% 0% 0% 5.5%;
+    font-size: 15px;
     }
 div.a32{
-    border: solid 1px none;
     width:18%;
     height:28%;
     float: left;
     margin:8% 0% 12% 2.3%; 
-    }
-input.a32{
-    border: solid 1px #f04c4e;
-    height:100%;
-    width:100%;
     color: white;
     background-color:#F04C4E;
+    padding: 1.2% 0% 0% 3.5%;
+    font-size:14px;
     }
 div.b{
     border: solid 1px none;
@@ -137,4 +130,67 @@ div.b2{
     background-color: white;
     }
 
-
+div.c{
+    float: left;
+    border: solid 0px black;
+    height: 200px;
+    width: 100%;
+    background-color: #373737;
+}
+div.c1{
+    float: left;
+    border: solid 0px black;
+    height: 100%;
+    width: 50%;
+}
+div.c1a{
+    float: left;
+    border: solid 0px black;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    height: 50%;
+    width: 100%;
+    padding: 5% 10% 0% 22%;
+    color: white;
+}
+     
+div.c1b{
+    float: left;
+    height: 50%;
+    border: solid 0px black;
+    width: 28%;
+    padding: 0% 0% 0% 22%;
+    margin-top: -6px;
+}    
+div.c1c{
+    float: left;
+    height: 50%;
+    border: solid 0px black;
+    width: 72%;
+    margin-top: -10px ;
+}    
+div.c2{
+    float: left;
+    border: solid 0px black;
+    height: 100%;
+    width: 50%;
+}
+div.c2a{
+    float: left;
+    border: solid 0px black;
+    font-size: 20;
+    height: 50%;
+    width: 100%;
+    padding: 7% 3% 0% 30%;
+    color: white;
+}
+div.c2b{
+    float: left;
+    border: solid 0px black;
+    font-size: 20px;    
+    height: 50%;
+    width: 100%;
+    padding: 0% 0% 0% 37%;
+    color: white;
+    margin-top: -35px;
+}
