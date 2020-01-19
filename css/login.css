@@ -40,13 +40,10 @@ h1.a13{
 p.a12{
     font-size:15px;
 }
-div.c{
-    height:200px;
-    background-color:rgb(55,55,55);
-    border: solid 2px black;
-}
+
+
 div.b{
-    height:1200px;
+    height:1000px;
     margin-top: 0px;
     margin-left: 30%;
     margin-right: 30%;
@@ -62,39 +59,54 @@ div.b1{
 div.b2{
     height:800px;
     background-color:rgb(244,244,244);
-    padding-right:80px;
+    margin-top:20px;
+    padding-right:100px;
     padding-left:100px;
     border: solid 0.5px rgb(244,244,244);
 }
 div.b12{
     width:50%;
-    padding-left:170px;
-    padding-top:0px;
+    padding-left:150px;
+    padding-top:30px;
     height:100%;
     float: left;
     border: solid 0.5px white;
 }
 div.b13{
     width:50%;
-    padding-left:100px;
-    padding-top:30px;
+    padding-left:90px;
+    padding-top:0px;
     height:100%;
     float: left;
     border: solid 0.5px white;
 }
+a.b13{
+    font-size: 30px;
+    color: rgb(207,44,47);
+}
+p.b12{
+    
+    color: black;
+    padding-left:10px;
+    font-size:30px;
+}
 div.b23{
     height:20%;
     margin-top:20px;
+    padding-right: 30px;
     border: solid 2px rgb(244,244,244);
+}
+h1.b23{
+    font-size :30px;
 }
 div.b24{
     height:15%;
-    margin-top:20px;
+    margin-top:25px;
     border: solid 2px rgb(244,244,244);
 }
 div.b25{
     height: 8%;
-    margin-top:20px;
+    margin-top:30px;
     border: solid 2px rgb(244,244,244);
 }
 div.b241{
@@ -104,24 +116,8 @@ div.b242{
     height:40%;
     border: solid 1px red;
 }
-
-p.b12{
-    font-size: 30px;
-    color: black;
-}
-a.b13{
-    color: rgb(207,44,47);
-    padding-top:40px;
-    padding-left:10px;
-    font-size:30px;
-}
-h1.b23{
-    font-size :40px;
-}
-
 p.b241{
-    font-size:20px;
-    font-weight: bold;
+    font-size:25px;
 }
 input{
     height:100%;
@@ -133,9 +129,19 @@ input.b25{
     font-size:20px;
 }
 a.b25{
-    color: red;
+    color: rgb(240,66,67);
     font-size:20px;
     padding-top:10%;
+}
+
+
+
+
+
+div.c{
+    height:200px;
+    background-color:rgb(55,55,55);
+    border: solid 2px black;
 }
 div.c1{
     float: left;
