@@ -4,7 +4,7 @@
 }
 div.a{
     float: left;
-    border: solid 1px black;
+    border: solid 0px black;
     height: 140px;
     width: 80%;
     margin: 0% 10% 0% 10%;
@@ -12,27 +12,27 @@ div.a{
 
 div.a1{
     float: left;
-    border: solid 1px black;
+    border: solid 0px black;
     height: 100%;
     width: 50%;
     padding: 0% 0% 0% 0%;
 }
 div.a1a{
     float: left;
-    border: solid 1px black;
+    border: solid 0px black;
     height: 100%;
     width: 12%;
     
 }
 div.a1b{
     float: left;
-    border: solid 1px black;
+    border: solid 0px black;
     height: 50%;
     width: 88%;
 }
 div.a1b1{
     float: left;
-    border: solid 1px black;
+    border: solid 0px black;
     height:100%;
     font-size: 18px;
     width: 6.5%; 
@@ -40,14 +40,14 @@ div.a1b1{
 }
 div.a1b2{
     float: left;
-    border: solid 1px black;
+    border: solid 0px black;
     height:100%;
     width: 93.5%;
     font-size: 18px;
 }
 div.a1c{
     float: left;
-    border: solid 1px black;
+    border: solid 0px black;
     height: 50%;
     width: 88%;
     font-size: 12px;
@@ -55,7 +55,7 @@ div.a1c{
 
 div.a2{
     float: left;
-    border: solid 1px black;
+    border: solid 0px black;
     font-size: 20px;
     font-family: 'Open Sans', sans-serif;
     padding: 2% 0% 0% 8%;
@@ -78,20 +78,20 @@ input.a3{
 }
 div.b{
     float: left;
-    border-top: solid 1px black;
+    border-top: solid 0px black;
     height: 578px;
     width: 80%;
     margin: 0% 10% 0% 10%;
 }
 div.b1{
     float: left;
-    border: solid 1px black;
+    border: solid 0px black;
     height: 100%;
     width: 15%;
 }
 div.b1a{
     float: left;
-    border: solid 1px black;
+    border: solid 0px black;
     height: 10%;
     width: 100%;
     font-family: 'Open Sans', sans-serif;
@@ -99,7 +99,7 @@ div.b1a{
 }
 div.b1b{
     float: left;
-    border: solid 1px black;
+    border: solid 0px black;
     height: 10%;
     width: 100%;
     font-family: 'Open Sans', sans-serif;
@@ -108,7 +108,7 @@ div.b1b{
     }
 div.b2{
     float: left;
-    border: solid 1px black;
+    border: solid 0px black;
     height: 100%;
     width: 70%;
     background-color: #f8f8f8;
@@ -122,14 +122,14 @@ div.b2a{
 }
 div.b2aa{
     float: left;
-    border: solid 1px black;
+    border: solid 0px black;
     width: 90%;
     font-size:22px;
     margin: 4% 5% 0% 5%;
 }
 div.b2ab{
     float: right;
-    border: solid 1px black;
+    border: solid 0px black;
     width: 100%
     font-size:22px;
     padding: 0% 0% 0% 0%;
@@ -145,14 +145,14 @@ div.b2b{
 }
 div.b2ba{
     float: left;
-    border: solid 1px black;
+    border: solid 0px black;
     width: 90%;
     font-size: 22px;
     margin: 0% 5% 0% 5%;
 }
 div.b2bb{
     float: right;
-    border: solid 1px black;
+    border: solid 0px black;
     width: 90%
     font-size:22px;
     margin: 0% 5% 0% 5%;
@@ -160,20 +160,20 @@ div.b2bb{
 
 div.c{
     float: left;
-    border: solid 1px black;
+    border: solid 0px black;
     height: 200px;
     width: 100%;
     background-color: #373737;
 }
 div.c1{
     float: left;
-    border: solid 1px black;
+    border: solid 0px black;
     height: 100%;
     width: 50%;
 }
 div.c1a{
     float: left;
-    border: solid 1px black;
+    border: solid 0px black;
     font-size: 20px;
     font-family: 'Open Sans', sans-serif;
     height: 50%;
@@ -185,25 +185,25 @@ div.c1a{
 div.c1b{
     float: left;
     height: 50%;
-    border: solid 1px black;
+    border: solid 0px black;
     width: 28%;
     padding: 0% 0% 0% 22%;
 }    
 div.c1c{
     float: left;
     height: 50%;
-    border: solid 1px black;
+    border: solid 0px black;
     width: 72%;
 }    
 div.c2{
     float: left;
-    border: solid 1px black;
+    border: solid 0px black;
     height: 100%;
     width: 50%;
 }
 div.c2a{
     float: left;
-    border: solid 1px black;
+    border: solid 0px black;
     font-size: 20;
     height: 50%;
     width: 100%;
@@ -212,7 +212,7 @@ div.c2a{
 }
 div.c2b{
     float: left;
-    border: solid 1px black;
+    border: solid 0px black;
     font-size: 20px;    
     height: 50%;
     width: 100%;
