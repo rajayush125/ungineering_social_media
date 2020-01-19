@@ -8,7 +8,37 @@ body{
 
 div.a{
     height:200px;
-    border: solid 2px black;
+    border: solid 2px none;
+}
+div.a1{
+    height:100%;
+    width:20%;
+    margin: auto;
+    border: solid 2px none;
+}
+div.a11{
+    height:100%;
+    width:20%;
+    float: left;
+    padding-top:55px;
+    border: solid 2px none;
+}
+div.a12{
+    height:100%;
+    width:80%;
+    float: left;
+    padding-top: 70px;
+    border: solid 2px none;
+}
+h1.a13{
+    margin:0px;
+    font-size:45px;
+}
+.a12{
+    margin:0px;
+}
+p.a12{
+    font-size:15px;
 }
 div.c{
     height:200px;
@@ -16,7 +46,7 @@ div.c{
     border: solid 2px black;
 }
 div.b{
-    height:1000px;
+    height:1200px;
     margin-top: 0px;
     margin-left: 30%;
     margin-right: 30%;
@@ -54,6 +84,7 @@ div.b13{
 }
 div.b23{
     height:20%;
+    margin-top:20px;
     border: solid 2px rgb(244,244,244);
 }
 div.b24{
@@ -81,6 +112,7 @@ p.b12{
 a.b13{
     color: rgb(207,44,47);
     padding-top:40px;
+    padding-left:10px;
     font-size:30px;
 }
 h1.b23{
@@ -89,7 +121,7 @@ h1.b23{
 
 p.b241{
     font-size:20px;
-    font-style: bold;
+    font-weight: bold;
 }
 input{
     height:100%;
@@ -106,32 +138,55 @@ a.b25{
     padding-top:10%;
 }
 div.c1{
-    height:50px;
-    margin-top:50px;
-    padding-left:150px;
-    padding-right:150px;
-    border: solid 2px rgb(55,55,55);  
+    float: left;
+    height:100%;
+    width:50%;
+    border: solid 2px rgb(55,55,55); 
 }
 p.c1{
     color: white;
-    float: left;
+    margin: 0px;
     font-size:20px;
 }
 p.c2{
     color: white;
     float: right;
+    margin: 0px;
     font-size:20px;
 }
 div.c2{
-    height:50px;
+    height:50%;
+    padding-top:50px;
     padding-left:150px;
+    border: solid 2px rgb(55,55,55);
+}
+div.c3{
+    height:50%;
+    padding-left:150px;
+    border: solid 2px rgb(55,55,55);
+}
+div.c31{
+    height:50px;
+    width:50px;
+    float: left;
+    border: solid 2px rgb(55,55,55);
+    
+}
+img.c2{
+    height:40px;
+    float: left;
+    width:40px;
+}
+div.c4{
+    height:50%;
+    padding-top:50px;
     padding-right:150px;
     border: solid 2px rgb(55,55,55);
 }
-img.c2{
-    height:30px;
-    float: left;
-    width:30px;
+div.c5{
+    height:50%;
+    padding-right:150px;
+    border: solid 2px rgb(55,55,55);
 }
 a.c2{
     float: right;
@@ -139,5 +194,8 @@ a.c2{
     text-decoration: none;
     font-size:20px;
 }
-
+p.c3{
+    margin:0px;
+    float: left;
+}
 
