@@ -3,6 +3,9 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+body{
+    margin:0px;    
+    }
 div.a{
     border: solid 1px none;
     width: 80%;
