@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> REGISTRATION PAGE </title>
-        <link rel="stylesheet" href="/social_media/css/registration.css"/>
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
+        <title> LOGIN PAGE </title>
+        <link rel="stylesheet" href="/social_media/css/login.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap" rel="stylesheet">
     </head>
     <body>
         <div class="a">
@@ -19,59 +19,47 @@
                 </div>
             </div>
         </div>
+        
         <div class="b">
             <div class="b1">
                 <div class="b13">
-                    <a class="b13" href="abc">Existing User</a>
+                    <p class="b12"><span style="text-decoration:underline">Existing</span> User</p>
                 </div>
                 <div class="b12">
-                    <p class="b12">New <span style="text-decoration:underline">User</span></p>
+                    <a href="abcd" class="b13">New User</a>
                 </div>
             </div>
-            <div class= "b2">
+            <div class="b2">
                 <div class="b23">
-                    <h1 class="b23">Create New Account at Ungineering</h1>
+                    <h1 class="b23">Login into the Ungineering Account</h1>
                 </div>
-                <div class="b24">
-                    <div class="b241">
-                        <p class="b241">Name</p>
+                <form method="post" action="login_submit.php">
+                    <div class="b24">
+                        <div class="b241">
+                            <p class="b241">Email</p>
+                        </div>
+                        <div class="b242">
+                            <input type="text" name="email">
+                        </div>
                     </div>
-                    <div class="b242">
-                        <input type="text" name="name">
+                    <div class="b24">
+                        <div class="b241">
+                            <p class="b241">Password</p>
+                        </div>
+                        <div class="b242">
+                            <input type="password" name="password">
+                        </div>
                     </div>
-                </div>
-                <div class="b24">
-                    <div class="b241">
-                        <p class="b241">Email</p>
+                    <div class="b25">
+                        <input class="b25" type="submit" value="Log-in">
                     </div>
-                    <div class="b242">
-                        <input type="text" name="email">
-                    </div>
-                </div>
-                <div class="b24">
-                    <div class="b241">
-                        <p class="b241">Password</p>
-                    </div>
-                    <div class="b242">
-                        <input type="password" name="password">
-                    </div>
-                </div>
-                <div class="b24">
-                    <div class="b241">
-                        <p class="b241">Confirm Password</p>
-                    </div>
-                    <div class="b242">
-                        <input type="password" name="password">
-                    </div>
-                </div>
+                </form>
                 <div class="b25">
-                    <input class="b25" type="submit" value="Create Account">
-                </div>
-                <div class="b25">
-                    <a class="b25" href="abc">Existing user,login</a>
+                    <a class="b25" href="abc">New user,Create Account</a>
                 </div>
             </div>
         </div>
+        
         <div class ="c">
             <div class="c1">
                 <div class="c2">
