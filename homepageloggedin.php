@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-    <link rel="stylesheet" href=/social_media/css/project2.css>
+    <link rel="stylesheet" href=/social_media/css/homepageloggedin.css>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     </head>
     <body>
@@ -28,12 +28,14 @@
         <div class="b">
             <div class="b1">
                 <div class="b11"><h2>Write something here</h2></div>
-                <div class="b12">
-                    <textarea name="address" style="height:100%;width:100%"></textarea>
-                </div> 
-                <div class="b13">
-                    <input class="b13" type="submit" value="Post" >
-                </div>
+                <form method="post" action="homepageloggedin_submit.php">
+                    <div class="b12">
+                        <textarea name="status" style="height:100%;width:100%"></textarea>
+                    </div> 
+                    <div class="b13">
+                        <input class="b13" type="submit" value="Post" >
+                    </div>
+                </form>
             </div>
             <div class="b2">
                 <div class="b21">
@@ -101,31 +103,32 @@
                 </div>
             </div>
         </div>
-       <div class="c">
-            <div  class="c1">
-                <div class="c1a">
-                    <p>Connect with us at</p>
+        <div class ="c">
+            <div class="c1">
+                <div class="c2">
+                    <p class="c1">Connect with us at-</p>
                 </div>
-                <div class="c1b">
-                    <a href="https://www.youtube.com/channel/UCJfiRBONgZIHsMtvlvCGaqg/">
-                    <img src="youtube1.png" height="33" width="35" alt=" "/></a>
-                </div>
-                <div class="c1c">
-                    <a href="https://www.facebook.com/Ungineering/">
-                    <img src="facebook1.png" height="42" width="43" alt=" "/></a>
+                <div class="c3">
+                    <div class="c31">
+                        <a href="abc">
+                            <img class="c2" src="/social_media/youtube1.png"/>
+                        </a>
+                    </div>
+                    <div class="c31">
+                        <a href="abc">
+                            <img class="c3" src="/social_media/facebook1.png"/>
+                        </a>
+                    </div>
                 </div>
             </div>
-            <div  class="c2">
-                <div  class="c2a">
-                <p>For any questions / doubts, write us at:</p>
+            <div class="c1">
+                <div class="c4">
+                    <p class="c2">For any question/doubts write us at-</p>
                 </div>
-                <div  class="c2b">
-                <p>queries@ungineering.com</p>
+                <div class="c5">
+                    <a class="c2" href="abcd">queries@ungineering.com</a>
                 </div>
             </div>
         </div>
     </body>
 </html>
-
-
-
