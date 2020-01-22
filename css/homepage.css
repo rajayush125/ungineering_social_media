@@ -90,7 +90,7 @@ div.a32{
 div.b{
     border: solid 1px none;
     width: 100%;
-    height: 1300px;
+    height: auto;
     display: block;
     background-color:#f7f7f7;
     }
@@ -99,7 +99,7 @@ div.b1{
     width: 66%;
     height: 220px;
     display: block;
-    margin:0% 0% 0% 17%;
+    margin:2.5% 0% 0% 17%;
     background-color: white;
     }
 div.b11{
@@ -118,7 +118,7 @@ div.b12{
     font-family: sans-serif;
     }
 div.b13{
-    border: solid 1px none;
+    padding-left: 18%;
     width: 40%;
     float: right;
     margin: 0% 0% 0% 5%;

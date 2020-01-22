@@ -1,4 +1,21 @@
+<?php
+    session_start();
+    $hostname = "127.0.0.1";
+    $username = "root";
+    $db_password = "123456";
+    $database = "social_media";
 
+    $conn = mysqli_connect($hostname, $username, $db_password, $database);
+    if (!$conn) {
+        die("Connection failed: " . mysqli_connect_error());
+    }
+    $sql1 ="select users.name,statuses.status,statuses.date,statuses.time from users inner join statuses on users.id=statuses.user_id ORDER BY date DESC";
+
+    $result1 = mysqli_query($conn, $sql1);
+    if (!$result1) {
+        die("Error: " . $sql1 . "<br>" . mysqli_error($conn));
+    }
+?>
 <html>
     <head>
     <link rel="stylesheet" href=/social_media/css/homepage.css>
@@ -26,83 +43,34 @@
             </div>
                        
         </div>
-        <div class="b"> 
+        <?php 
+            while ($row=mysqli_fetch_array($result1)){
+        ?> 
+        <div class="b">
+            
             <div class="b1">
+                
                 <div class="b11">
-                    <h3>Name</h3>
+                    <h3> <?php echo $row['name'] . "<br/>" ?></h3>
                 </div>
                 <div class="b12">
-                    <p>We have observed that a student can excel in a subject only if the fundamental concepts of the subject is clear. 
-                    In this course, we focus a lot on the basic concepts so that it becomes easier for the students to understand the advanced topics once we reach there.
-                    sessions are practical oriented. We believe, executing things while you learn gives a better grasp on the subject.
+                    <p>
+                       <?php echo $row['status'] . "<br/>"; 
+                       ?>
                     </p>
                 </div>
                 <div class="b13">
-                    <p>Time : 24:40 Hrs IST | 26 Dec</p>
-                    
+                    <p>Time:<?php 
+                            echo $row['time'];
+                            echo " | ";
+                            echo $row['date'] . "<br/>";
+                            ?> </p>  
                 </div>       
             </div>
-            <div class="b2">
-                <div class="b11">
-                    <h3>Name</h3>
-                </div>
-                <div class="b12">
-                    <p>We have observed that a student can excel in a subject only if the fundamental concepts of the subject is clear. 
-                    In this course, we focus a lot on the basic concepts so that it becomes easier for the students to understand the advanced topics once we reach there.
-                    sessions are practical oriented. We believe, executing things while you learn gives a better grasp on the subject.
-                    </p>
-                </div>
-                <div class="b13">
-                    <p>Time : 24:40 Hrs IST | 26 Dec</p>
-                    
-                </div>  
-            </div>
-            <div class="b2">
-                <div class="b11">
-                    <h3>Name</h3>
-                </div>
-                <div class="b12">
-                    <p>We have observed that a student can excel in a subject only if the fundamental concepts of the subject is clear. 
-                    In this course, we focus a lot on the basic concepts so that it becomes easier for the students to understand the advanced topics once we reach there.
-                    sessions are practical oriented. We believe, executing things while you learn gives a better grasp on the subject.
-                    </p>
-                </div>
-                <div class="b13">
-                    <p>Time : 24:40 Hrs IST | 26 Dec</p>
-                    
-                </div>  
-            </div>
-            <div class="b2">
-                <div class="b11">
-                    <h3>Name</h3>
-                </div>
-                <div class="b12">
-                    <p>We have observed that a student can excel in a subject only if the fundamental concepts of the subject is clear. 
-                    In this course, we focus a lot on the basic concepts so that it becomes easier for the students to understand the advanced topics once we reach there.
-                    sessions are practical oriented. We believe, executing things while you learn gives a better grasp on the subject.
-                    </p>
-                </div>
-                <div class="b13">
-                    <p>Time : 24:40 Hrs IST | 26 Dec</p>
-                    
-                </div>  
-            </div>
-            <div class="b2">
-                <div class="b11">
-                    <h3>Name</h3>
-                </div>
-                <div class="b12">
-                    <p>We have observed that a student can excel in a subject only if the fundamental concepts of the subject is clear. 
-                    In this course, we focus a lot on the basic concepts so that it becomes easier for the students to understand the advanced topics once we reach there.
-                    sessions are practical oriented. We believe, executing things while you learn gives a better grasp on the subject.
-                    </p>
-                </div>
-                <div class="b13">
-                    <p>Time : 24:40 Hrs IST | 26 Dec</p>
-                    
-                </div>  
-            </div>          
+          <?php 
+              } ?>
         </div>
+   
         <div class ="c">
             <div class="c1">
                 <div class="c2">
