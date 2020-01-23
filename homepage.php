@@ -10,7 +10,7 @@
         die("Connection failed: " . mysqli_connect_error());
     }
     $sql1 ="select users.name,statuses.status,statuses.date,statuses.time from users inner join statuses on users.id=statuses.user_id ORDER BY date DESC";
-
+    $user_id=NULL;
     $result1 = mysqli_query($conn, $sql1);
     if (!$result1) {
         die("Error: " . $sql1 . "<br>" . mysqli_error($conn));
@@ -26,7 +26,7 @@
             <div class="a1">
                 <div class="a1a">
                     <a href="#/">
-                    <img src="logo.svg" height="75" alt=" "/>
+                    <img src="img/logo.svg" height="75" alt=" "/>
                     </a>
                 </div>
                 <div class="a1b">
@@ -37,29 +37,52 @@
                     <div class ="a1b2"><h7>A <span style="color:#f04c4e">bit</span> of knowledge is good.A <span style="color:#f04c4e">byte</span> is better</h7></div>
                 </div>
             </div>
-            <div class="a3">
-                  <a href="#/"><div class="a31">Login</div></a>
-                  <a href="#/"><div class="a32">New User</div></a>
-            </div>
-                       
+            <?php
+            if($user_id!=NULL){ ?>
+                <div class="a3">
+                    <div class="a41"><u>My Dashboard</u></div>
+                    <a href="#/"><div class="a42">Logout</div></a>
+                </div>
+            <?php }
+            else { ?>
+                <div class="a3">
+                    <a href="#/"><div class="a31">Login</div></a>
+                    <a href="#/"><div class="a32">New User</div></a>
+                </div>
+            <?php } ?>           
         </div>
+
+        <div class="b">
+        <?php
+            if($user_id!=NULL){
+        ?>
+           <div class="b1">
+                <div class="b11"><h2>Write something here</h2></div>
+                <form method="post" action="homepageloggedin_submit.php">
+                    <div class="b12">
+                        <textarea name="status" style="height:100%;width:100%"></textarea>
+                    </div> 
+                    <div class="b13">
+                        <input class="b13" type="submit" value="Post" >
+                    </div>
+                </form>
+            </div>
+        <?php } ?>
         <?php 
             while ($row=mysqli_fetch_array($result1)){
-        ?> 
-        <div class="b">
-            
-            <div class="b1">
+        ?>         
+            <div class="b2">
                 
-                <div class="b11">
+                <div class="b21">
                     <h3> <?php echo $row['name'] . "<br/>" ?></h3>
                 </div>
-                <div class="b12">
+                <div class="b22">
                     <p>
                        <?php echo $row['status'] . "<br/>"; 
                        ?>
                     </p>
                 </div>
-                <div class="b13">
+                <div class="b23">
                     <p>Time:<?php 
                             echo $row['time'];
                             echo " | ";
@@ -79,12 +102,12 @@
                 <div class="c3">
                     <div class="c31">
                         <a href="abc">
-                            <img class="c2" src="/social_media/youtube1.png"/>
+                            <img class="c2" src="img/youtube1.png"/>
                         </a>
                     </div>
                     <div class="c31">
                         <a href="abc">
-                            <img class="c3" src="/social_media/facebook1.png"/>
+                            <img class="c3" src="img/facebook1.png"/>
                         </a>
                     </div>
                 </div>

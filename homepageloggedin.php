@@ -9,7 +9,7 @@
             <div class="a1">
                 <div class="a1a">
                     <a href="#/">
-                    <img src="logo.svg" height="75" alt=" "/>
+                    <img src="img/logo.svg" height="75" alt=" "/>
                     </a>
                 </div>
                 <div class="a1b">
@@ -111,12 +111,12 @@
                 <div class="c3">
                     <div class="c31">
                         <a href="abc">
-                            <img class="c2" src="/social_media/youtube1.png"/>
+                            <img class="c2" src="/social_media/img/youtube1.png"/>
                         </a>
                     </div>
                     <div class="c31">
                         <a href="abc">
-                            <img class="c3" src="/social_media/facebook1.png"/>
+                            <img class="c3" src="/social_media/img/facebook1.png"/>
                         </a>
                     </div>
                 </div>
