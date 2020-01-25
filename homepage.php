@@ -9,8 +9,7 @@
     if (!$conn) {
         die("Connection failed: " . mysqli_connect_error());
     }
-    $sql1 ="select users.name,statuses.status,statuses.date,statuses.time from users inner join statuses on users.id=statuses.user_id ORDER BY date DESC";
-    $user_id=NULL;
+    $sql1 ="select users.name,statuses.status,statuses.date,statuses.time from users inner join statuses on users.id=statuses.user_id ORDER BY statuses.id DESC";
     $result1 = mysqli_query($conn, $sql1);
     if (!$result1) {
         die("Error: " . $sql1 . "<br>" . mysqli_error($conn));
@@ -38,23 +37,23 @@
                 </div>
             </div>
             <?php
-            if($user_id!=NULL){ ?>
+            if($_SESSION['id']!=NULL){ ?>
                 <div class="a3">
                     <div class="a41"><u>My Dashboard</u></div>
-                    <a href="#/"><div class="a42">Logout</div></a>
+                    <a href="logout.php"><div class="a42">Logout</div></a>
                 </div>
             <?php }
             else { ?>
                 <div class="a3">
-                    <a href="#/"><div class="a31">Login</div></a>
-                    <a href="#/"><div class="a32">New User</div></a>
+                    <a href="login.php"><div class="a31">Login</div></a>
+                    <a href="registration.php"><div class="a32">New User</div></a>
                 </div>
             <?php } ?>           
         </div>
 
         <div class="b">
         <?php
-            if($user_id!=NULL){
+            if($_SESSION['id']!=NULL){
         ?>
            <div class="b1">
                 <div class="b11"><h2>Write something here</h2></div>

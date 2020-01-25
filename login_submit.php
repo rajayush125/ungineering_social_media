@@ -36,8 +36,8 @@
         $_SESSION['id']=$row['id'];
         $_SESSION['name']=$row['name'];
         ?>
-        <a href="homepageloggedin.php">Click Here to continue</a>
-        <form action="homepageloggedin.php"  method ="get">
+        <a href="homepage.php">Click Here to continue</a>
+        <form action="homepage.php"  method ="get">
         </form>
         <?php
     }

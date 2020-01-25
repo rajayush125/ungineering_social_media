@@ -9,11 +9,10 @@
     if (!$conn) {
         die("Connection failed: " . mysqli_connect_error());
     }
-    
+    $user_id=$_SESSION['id'];
     $status = $_POST['status'];
     $date = date("Y.m.d");
     $time= date("h:i:sa"); 
-    $user_id= 1;
     $sql = "INSERT INTO statuses (status, date, time,user_id) VALUES ('$status', '$date', '$time','$user_id')";
     
     $result = mysqli_query($conn, $sql);
@@ -21,7 +20,7 @@
         die("Error: " . $sql . "<br>" . mysqli_error($conn));
     }
 
-    echo "Status updated";
+    header("Location:homepage.php");
     mysqli_close($conn);
     
 ?>
