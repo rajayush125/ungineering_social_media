@@ -10,7 +10,7 @@
             <div class="a1">
                 <div class="a11">
                     <a href="sd">
-                        <img src="/social_media/ungineering_logo.svg" height="100px"/>
+                        <img src="/social_media/img/ungineering_logo.svg" height="100px"/>
                     </a>
                 </div>
                 <div class="a12">
@@ -22,7 +22,7 @@
         <div class="b">
             <div class="b1">
                 <div class="b13">
-                    <a class="b13" href="abc">Existing User</a>
+                    <a class="b13" href="login.php">Existing User</a>
                 </div>
                 <div class="b12">
                     <p class="b12">New <span style="text-decoration:underline">User</span></p>
@@ -82,12 +82,12 @@
                 <div class="c3">
                     <div class="c31">
                         <a href="abc">
-                            <img class="c2" src="/social_media/youtube1.png"/>
+                            <img class="c2" src="/social_media/img/youtube1.png"/>
                         </a>
                     </div>
                     <div class="c31">
                         <a href="abc">
-                            <img class="c2" src="/social_media/facebook1.png"/>
+                            <img class="c2" src="/social_media/img/facebook1.png"/>
                         </a>
                     </div>
                 </div>
