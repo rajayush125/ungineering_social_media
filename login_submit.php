@@ -6,15 +6,22 @@
     $db_password = "123456";
     $db_name = "social_media";
 
+    $response = array();
     $conn = mysqli_connect($hostname, $username, $db_password, $db_name);
     if (!$conn) {
-        die("Connection failed: " . mysqli_connect_error());
+        $response['success'] = false;
+        $response['message'] = "Connection failed: " . mysqli_connect_error();
+        echo json_encode($response);
+        exit();
     }
     
     $sql = "SELECT * FROM users";
     $result = mysqli_query($conn, $sql);
     if (!$result) {
-        die("Error: " . $sql . "<br>" . mysqli_error($conn));
+        $response['success'] = false;
+        $response['message'] = "Error: " . $sql . "<br>" . mysqli_error($conn);
+        echo json_encode($response);
+        exit();
     }
 
     $flag=0;
@@ -32,17 +39,20 @@
     
     if($flag===1)
     {
-        echo "Log in Successful.... Hello ".$row['name'];
+        $response['success'] = true;
+        $response['message'] = "Hello " . $row['name'];
         $_SESSION['id']=$row['id'];
         $_SESSION['name']=$row['name'];
         ?>
-        <a href="homepage.php">Click Here to continue</a>
-        <form action="homepage.php"  method ="get">
+        <form action="homepage.php"  method ="post"/>
         </form>
         <?php
     }
     else
     {
-        echo "Invalid Login";
+        $response['success'] = false;
+        $response['message'] = "Login failed";
     }
+    echo json_encode($response);
+    mysqli_close($conn);
 ?>

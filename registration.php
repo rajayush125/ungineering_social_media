@@ -32,7 +32,7 @@
                 <div class="b23">
                     <h1 class="b23">Create New Account at Ungineering</h1>
                 </div>
-                <form method="post" action="registration_submit.php"/>
+                <form id="registration" method="post" action="registration_submit.php"/>
                     <div class="b24">
                         <div class="b241">
                             <p class="b241">Name</p>
@@ -101,5 +101,7 @@
                 </div>
             </div>
         </div>
+        <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+        <script type="text/javascript" src="js/login.js"></script>
     </body>
 </html>
